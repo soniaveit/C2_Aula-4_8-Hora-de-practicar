@@ -1,9 +1,9 @@
 /* DESAFIOS: (del Aula 4 del Curso 2 "Lógica de Programación y JavaScript: Listas y funciones")
 1.- Crea una lista vacía llamada "listaGenerica".
-2.- Crea una lista de lenguajes de programación llamada "lenguagesDeProgramacion con los siguientes elementos: 'JavaScript', 'C', 'C++', 'Kotlin' y 'Python'.
-3.- Agrega a la lista "lenguagesDeProgramacion los siguientes elementos: 'Java', 'Ruby' y 'GoLang'.
-4.- Crea una función que muestre en la consola todos los elementos de la lista "lenguagesDeProgramacion.
-5.- Crea una función que muestre en la consola todos los elementos de la lista "lenguagesDeProgramacion en orden inverso.
+2.- Crea una lista de lenguajes de programación llamada "lenguajesDeProgramacion con los siguientes elementos: 'JavaScript', 'C', 'C++', 'Kotlin' y 'Python'.
+3.- Agrega a la lista "lenguajesDeProgramacion los siguientes elementos: 'Java', 'Ruby' y 'GoLang'.
+4.- Crea una función que muestre en la consola todos los elementos de la lista "lenguajesDeProgramacion.
+5.- Crea una función que muestre en la consola todos los elementos de la lista "lenguajesDeProgramacion en orden inverso.
 6.- Crea una función que calcule el promedio de los elementos en una lista de números.
 7.- Crea una función que muestre en la consola el número más grande y el número más pequeño en una lista.
 8.- Crea una función que devuelva la suma de todos los elementos en una lista.
@@ -15,28 +15,28 @@
 //1.- Crea una lista vacía llamada "listaGenerica"
 let listaGenerica= [];
 
-//2.- Crea una lista de lenguajes de programación llamada "lenguagesDeProgramacion con los siguientes elementos: 
+//2.- Crea una lista de lenguajes de programación llamada "lenguajesDeProgramacion con los siguientes elementos: 
 //'JavaScript', 'C', 'C++', 'Kotlin' y 'Python'.
-let lenguagesDeProgramacion=['JavaScript', 'C', 'C++', 'Kotlin', 'Python'];
+let lenguajesDeProgramacion=['JavaScript', 'C', 'C++', 'Kotlin', 'Python'];
 
-//3.- Agrega a la lista "lenguagesDeProgramacion los siguientes elementos: 'Java', 'Ruby' y 'GoLang'
-lenguagesDeProgramacion.push('Java', 'Ruby', 'GoLang');
+//3.- Agrega a la lista "lenguajesDeProgramacion los siguientes elementos: 'Java', 'Ruby' y 'GoLang'
+lenguajesDeProgramacion.push('Java', 'Ruby', 'GoLang');
 
-//4.- Crea una función que muestre en la consola todos los elementos de la lista "lenguagesDeProgramacion.
-verListaLenguagesDeProgramacion();
-function verListaLenguagesDeProgramacion(){
-    console.log(`Listado de 0 a ${lenguagesDeProgramacion.length-1}`);
-    for (i=0; i<lenguagesDeProgramacion.length; i++){
-        console.log(`${i}.- ${lenguagesDeProgramacion[i]}`);
+//4.- Crea una función que muestre en la consola todos los elementos de la lista "lenguajesDeProgramacion.
+verListaLenguajesDeProgramacion();
+function verListaLenguajesDeProgramacion(){
+    console.log(`Listado de 0 a ${lenguajesDeProgramacion.length-1}`);
+    for (i=0; i<lenguajesDeProgramacion.length; i++){
+        console.log(`${i}.- ${lenguajesDeProgramacion[i]}`);
     }
 }
 
-//5.- Crea una función que muestre en la consola todos los elementos de la lista "lenguagesDeProgramacion en orden inverso.
-verListaLenguagesDeProgramacion_Inverso();
-function verListaLenguagesDeProgramacion_Inverso(){
+//5.- Crea una función que muestre en la consola todos los elementos de la lista "lenguajesDeProgramacion en orden inverso.
+verListaLenguajesDeProgramacion_Inverso();
+function verListaLenguajesDeProgramacion_Inverso(){
     console.log('Listado de Orden Inverso');
-    for (i=lenguagesDeProgramacion.length; i>0; i--){
-        console.log(`${i-1}.- ${lenguagesDeProgramacion[i-1]}`);
+    for (i=lenguajesDeProgramacion.length; i>0; i--){
+        console.log(`${i-1}.- ${lenguajesDeProgramacion[i-1]}`);
     }
 }
 
